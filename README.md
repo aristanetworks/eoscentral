@@ -41,7 +41,7 @@ In addition to the above containers, Gitlab runner will spin-up Docker container
 Clone this git repository
 
 ```
-git clone https://github.com/networkop/arista-network-ci.git && cd arista-network-ci
+git clone --single-branch -b networkci-p3 https://github.com/aristanetworks/eoscentral.git arista-network-ci && cd arista-network-ci
 ```
 
 Save the full absolute path to the current directory:
